@@ -1,0 +1,24 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 3a79f31a38874e21af030ff93b0e8b20 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_top_level_controller_behav xil_defaultlib.tb_top_level_controller xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.spiCtrl
+Compiling module xil_defaultlib.SPImode0
+Compiling module xil_defaultlib.Clk_Div_66_67kHz
+Compiling module xil_defaultlib.PmodJSTK2_Interface
+Compiling module xil_defaultlib.Clk_Div_5Hz
+Compiling module xil_defaultlib.PmodJSTK2_Input
+Compiling module xil_defaultlib.joystick_decoder
+Compiling module xil_defaultlib.angle_decoder
+Compiling module xil_defaultlib.PWM_comparator
+Compiling module xil_defaultlib.ClkDiv_100Hz
+Compiling module xil_defaultlib.Servo_Controller
+Compiling module xil_defaultlib.top_level_controller
+Compiling module xil_defaultlib.tb_top_level_controller
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_level_controller_behav

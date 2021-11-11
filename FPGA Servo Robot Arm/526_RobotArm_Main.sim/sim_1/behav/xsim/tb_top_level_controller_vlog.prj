@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../526_RobotArm_Main.srcs/sources_1/new/ClkDiv_100Hz.v" \
+"../../../../526_RobotArm_Main.srcs/sources_1/new/Clk_Div_5Hz.v" \
+"../../../../526_RobotArm_Main.srcs/sources_1/new/Clk_Div_66_67kHz.v" \
+"../../../../526_RobotArm_Main.srcs/sources_1/new/PWM_comparator.v" \
+"../../../../526_RobotArm_Main.srcs/sources_1/new/PmodJSTK2_Input.v" \
+"../../../../526_RobotArm_Main.srcs/sources_1/new/PmodJSTK2_Interface.v" \
+"../../../../526_RobotArm_Main.srcs/sources_1/new/SPImode0.v" \
+"../../../../526_RobotArm_Main.srcs/sources_1/new/Servo_Controller.v" \
+"../../../../526_RobotArm_Main.srcs/sources_1/new/angle_decoder.v" \
+"../../../../526_RobotArm_Main.srcs/sources_1/new/joystick_decoder.v" \
+"../../../../526_RobotArm_Main.srcs/sources_1/new/spiCtrl.v" \
+"../../../../526_RobotArm_Main.srcs/sources_1/new/top_level_controller.v" \
+"../../../../526_RobotArm_Main.srcs/sim_1/new/tb_top_level_controller.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

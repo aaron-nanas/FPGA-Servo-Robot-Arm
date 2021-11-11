@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../526_RobotArm_Main.srcs/sources_1/new/Clk_Div_66_67kHz.v" \
+"../../../../526_RobotArm_Main.srcs/sim_1/new/tb_Clk_Div_66_67kHz.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
