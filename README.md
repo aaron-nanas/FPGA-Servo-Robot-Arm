@@ -1,12 +1,16 @@
 # Introduction
-This repository includes the Vivado project files of my simple robot arm project for my ECE 526 class (Digital Design with Verilog and System Verilog).
+This repository includes the Vivado project files of my simple robot arm project for my ECE 526 class (Digital Design with Verilog and System Verilog) from Spring 2021.
 
 Check out the `FPGA Servo Robot Arm` directory to view the Vivado project files.
 
+Click on `ece526_final_proj_report` to view the report that contains additional details.
+
 [Click here to watch a short video demonstration.](https://youtu.be/SgvgNNp92zs)
 
+[Click here to check out the source of the files used for 3D printing the structure.](https://create.arduino.cc/projecthub/anova9347/roboarm-89b1cc)
+
 # Description
-Implemented in Verilog using an FPGA/SoC development board, Zedboard, this project involves the use of several servo motors to control a 3D printed robot arm. After creating the modules for generating PWM, the PWM outputs were inspected using an oscilloscope, making sure that the frequency and duty cycle values were correct. A Pmod Joystick ([JSTK2](https://digilent.com/reference/pmod/pmodjstk2/start)) was used for servo rotation via SPI. The Zedboard's push buttons were used to determine which servo should be enabled.
+Implemented in Verilog using an FPGA/SoC development board, Zedboard, this project involves the use of several servo motors to control a 3D printed robot arm. After creating the modules for generating PWM, the PWM outputs were inspected using an oscilloscope, making sure that the frequency and duty cycle values were correct. A Pmod Joystick ([JSTK2](https://digilent.com/reference/pmod/pmodjstk2/start)) was used for servo rotation via the communication protocol, SPI, and it responds to the X and Y values of the Pmod Joystick. The Zedboard's push buttons are used to determine which servo should be enabled.
 
 The overall structure is 3D printed using the [Original Prusa MINI+](https://shop.prusa3d.com/en/3d-printers/994-original-prusa-mini.html) Printer with PLA filament.
 
